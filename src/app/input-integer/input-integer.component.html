@@ -1,0 +1,5 @@
+<div>
+    <div><button (click)="downQuantity()">-</button></div>
+    <input type="text" [(ngModel)]="cantidad" (keyup)="ChangeQuantity($event, iphone)">
+    <div><button (click)="upQuantity()">+</button></div>
+</div>
