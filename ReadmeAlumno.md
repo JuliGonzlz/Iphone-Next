@@ -14,7 +14,10 @@ Este sistema fue desarrollado como trabajo final para la materia, aplicando buen
 
 👨‍🎓 Datos del estudiante
 
-- Nombre completo: Julian González Jose 
+- Nombre completo: Julian González Jose
+- DNI: 45423669
+- Email: juliangonzalez132546@gamil.com
+- Sede: Tandil
 
 Podés ver y editar el proyecto directamente en StackBlitz desde el siguiente enlace:
 https://stackblitz.com/~/github.com/JuliGonzlz/Iphone-Next/edit/angular-ivy-nn
