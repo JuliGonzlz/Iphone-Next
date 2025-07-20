@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Iphone } from "./Iphone";
 import { IphoneCartService } from '../iphone-cart.service';
-import { IphoneDataService } from '../iphone-data.service';
 
 @Component({
   selector: 'app-iphone-list',
@@ -17,7 +16,7 @@ export class IphoneListComponent implements OnInit {
       tipo : "Comun (64GB)",
       precio : 300000,
       stock : 3,
-      imagen : "assets/img/ipsone11.jpg",
+      imagen : "../assets/img/iphone11.jpg",
       promocion : false,
       cantidad : 0
     },
@@ -26,7 +25,7 @@ export class IphoneListComponent implements OnInit {
       tipo : "Pro (128GB)",
       precio : 400000,
       stock : 0,
-      imagen : "assets/img/ipsone11.jpg",
+      imagen : "../assets/img/iphone13pro.webp",
       promocion : false,
       cantidad : 0
     },
@@ -35,14 +34,14 @@ export class IphoneListComponent implements OnInit {
       tipo : "Pro Max (254GB)",
       precio : 450000,
       stock : 11000,
-      imagen : "assets/img/ipsone11.jpg",
+      imagen : "../assets/img/iphone12promax.webp",
       promocion : true,
       cantidad : 0
     }
   ]
   
 
-  constructor(private cart: IphoneCartService, private iphoneDataService: IphoneDataService) {}
+  constructor(private cart: IphoneCartService) {}
 
   ngOnInit(): void {}
 

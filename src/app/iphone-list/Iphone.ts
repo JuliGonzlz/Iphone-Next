@@ -3,7 +3,7 @@ export interface Iphone {
     tipo: String;
     precio: number;
     stock: number;
-    imagen: String;
+    imagen: string;
     promocion: boolean;
     cantidad: number;
 }
