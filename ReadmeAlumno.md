@@ -16,7 +16,7 @@ Este sistema fue desarrollado como trabajo final para la materia, aplicando buen
 
 - Nombre completo: Julian González Jose
 - DNI: 45423669
-- Email: juliangonzalez132546@gamil.com
+- Email: juliangonzalez132546@gmail.com
 - Sede: Tandil
 
 Podés ver y editar el proyecto directamente en StackBlitz desde el siguiente enlace:
